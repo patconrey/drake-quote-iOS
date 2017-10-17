@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51F43381F96C2F70031CFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F43371F96C2F70031CFBB /* AppDelegate.swift */; };
+		B51F433A1F96C2F70031CFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F43391F96C2F70031CFBB /* ViewController.swift */; };
+		B51F433D1F96C2F70031CFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F433B1F96C2F70031CFBB /* Main.storyboard */; };
+		B51F433F1F96C2F70031CFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51F433E1F96C2F70031CFBB /* Assets.xcassets */; };
+		B51F43421F96C2F70031CFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51F43401F96C2F70031CFBB /* LaunchScreen.storyboard */; };
+		B51F434D1F96C2F70031CFBB /* Drake_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F434C1F96C2F70031CFBB /* Drake_QuotesTests.swift */; };
+		B51F43581F96C2F70031CFBB /* Drake_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F43571F96C2F70031CFBB /* Drake_QuotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51F43491F96C2F70031CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51F432C1F96C2F70031CFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51F43331F96C2F70031CFBB;
+			remoteInfo = "Drake Quotes";
+		};
+		B51F43541F96C2F70031CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51F432C1F96C2F70031CFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51F43331F96C2F70031CFBB;
+			remoteInfo = "Drake Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51F43341F96C2F70031CFBB /* Drake Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drake Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F43371F96C2F70031CFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51F43391F96C2F70031CFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51F433C1F96C2F70031CFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51F433E1F96C2F70031CFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51F43411F96C2F70031CFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51F43431F96C2F70031CFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51F43481F96C2F70031CFBB /* Drake QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drake QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F434C1F96C2F70031CFBB /* Drake_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drake_QuotesTests.swift; sourceTree = "<group>"; };
+		B51F434E1F96C2F70031CFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51F43531F96C2F70031CFBB /* Drake QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drake QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F43571F96C2F70031CFBB /* Drake_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drake_QuotesUITests.swift; sourceTree = "<group>"; };
+		B51F43591F96C2F70031CFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51F43311F96C2F70031CFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F43451F96C2F70031CFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F43501F96C2F70031CFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51F432B1F96C2F70031CFBB = {
+			isa = PBXGroup;
+			children = (
+				B51F43361F96C2F70031CFBB /* Drake Quotes */,
+				B51F434B1F96C2F70031CFBB /* Drake QuotesTests */,
+				B51F43561F96C2F70031CFBB /* Drake QuotesUITests */,
+				B51F43351F96C2F70031CFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51F43351F96C2F70031CFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51F43341F96C2F70031CFBB /* Drake Quotes.app */,
+				B51F43481F96C2F70031CFBB /* Drake QuotesTests.xctest */,
+				B51F43531F96C2F70031CFBB /* Drake QuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51F43361F96C2F70031CFBB /* Drake Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				B51F43371F96C2F70031CFBB /* AppDelegate.swift */,
+				B51F43391F96C2F70031CFBB /* ViewController.swift */,
+				B51F433B1F96C2F70031CFBB /* Main.storyboard */,
+				B51F433E1F96C2F70031CFBB /* Assets.xcassets */,
+				B51F43401F96C2F70031CFBB /* LaunchScreen.storyboard */,
+				B51F43431F96C2F70031CFBB /* Info.plist */,
+			);
+			path = "Drake Quotes";
+			sourceTree = "<group>";
+		};
+		B51F434B1F96C2F70031CFBB /* Drake QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51F434C1F96C2F70031CFBB /* Drake_QuotesTests.swift */,
+				B51F434E1F96C2F70031CFBB /* Info.plist */,
+			);
+			path = "Drake QuotesTests";
+			sourceTree = "<group>";
+		};
+		B51F43561F96C2F70031CFBB /* Drake QuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B51F43571F96C2F70031CFBB /* Drake_QuotesUITests.swift */,
+				B51F43591F96C2F70031CFBB /* Info.plist */,
+			);
+			path = "Drake QuotesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51F43331F96C2F70031CFBB /* Drake Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51F435C1F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake Quotes" */;
+			buildPhases = (
+				B51F43301F96C2F70031CFBB /* Sources */,
+				B51F43311F96C2F70031CFBB /* Frameworks */,
+				B51F43321F96C2F70031CFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drake Quotes";
+			productName = "Drake Quotes";
+			productReference = B51F43341F96C2F70031CFBB /* Drake Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51F43471F96C2F70031CFBB /* Drake QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51F435F1F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake QuotesTests" */;
+			buildPhases = (
+				B51F43441F96C2F70031CFBB /* Sources */,
+				B51F43451F96C2F70031CFBB /* Frameworks */,
+				B51F43461F96C2F70031CFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51F434A1F96C2F70031CFBB /* PBXTargetDependency */,
+			);
+			name = "Drake QuotesTests";
+			productName = "Drake QuotesTests";
+			productReference = B51F43481F96C2F70031CFBB /* Drake QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B51F43521F96C2F70031CFBB /* Drake QuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51F43621F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake QuotesUITests" */;
+			buildPhases = (
+				B51F434F1F96C2F70031CFBB /* Sources */,
+				B51F43501F96C2F70031CFBB /* Frameworks */,
+				B51F43511F96C2F70031CFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51F43551F96C2F70031CFBB /* PBXTargetDependency */,
+			);
+			name = "Drake QuotesUITests";
+			productName = "Drake QuotesUITests";
+			productReference = B51F43531F96C2F70031CFBB /* Drake QuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51F432C1F96C2F70031CFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ConreyDesigns;
+				TargetAttributes = {
+					B51F43331F96C2F70031CFBB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B51F43471F96C2F70031CFBB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B51F43331F96C2F70031CFBB;
+					};
+					B51F43521F96C2F70031CFBB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B51F43331F96C2F70031CFBB;
+					};
+				};
+			};
+			buildConfigurationList = B51F432F1F96C2F70031CFBB /* Build configuration list for PBXProject "Drake Quotes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51F432B1F96C2F70031CFBB;
+			productRefGroup = B51F43351F96C2F70031CFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51F43331F96C2F70031CFBB /* Drake Quotes */,
+				B51F43471F96C2F70031CFBB /* Drake QuotesTests */,
+				B51F43521F96C2F70031CFBB /* Drake QuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51F43321F96C2F70031CFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51F43421F96C2F70031CFBB /* LaunchScreen.storyboard in Resources */,
+				B51F433F1F96C2F70031CFBB /* Assets.xcassets in Resources */,
+				B51F433D1F96C2F70031CFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F43461F96C2F70031CFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F43511F96C2F70031CFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51F43301F96C2F70031CFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51F433A1F96C2F70031CFBB /* ViewController.swift in Sources */,
+				B51F43381F96C2F70031CFBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F43441F96C2F70031CFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51F434D1F96C2F70031CFBB /* Drake_QuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51F434F1F96C2F70031CFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51F43581F96C2F70031CFBB /* Drake_QuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51F434A1F96C2F70031CFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51F43331F96C2F70031CFBB /* Drake Quotes */;
+			targetProxy = B51F43491F96C2F70031CFBB /* PBXContainerItemProxy */;
+		};
+		B51F43551F96C2F70031CFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51F43331F96C2F70031CFBB /* Drake Quotes */;
+			targetProxy = B51F43541F96C2F70031CFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51F433B1F96C2F70031CFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51F433C1F96C2F70031CFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51F43401F96C2F70031CFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51F43411F96C2F70031CFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51F435A1F96C2F70031CFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51F435B1F96C2F70031CFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51F435D1F96C2F70031CFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51F435E1F96C2F70031CFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B51F43601F96C2F70031CFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drake Quotes.app/Drake Quotes";
+			};
+			name = Debug;
+		};
+		B51F43611F96C2F70031CFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drake Quotes.app/Drake Quotes";
+			};
+			name = Release;
+		};
+		B51F43631F96C2F70031CFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drake Quotes";
+			};
+			name = Debug;
+		};
+		B51F43641F96C2F70031CFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59Q7UU46FG;
+				INFOPLIST_FILE = "Drake QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ConreyDesigns.Drake-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drake Quotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51F432F1F96C2F70031CFBB /* Build configuration list for PBXProject "Drake Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51F435A1F96C2F70031CFBB /* Debug */,
+				B51F435B1F96C2F70031CFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51F435C1F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51F435D1F96C2F70031CFBB /* Debug */,
+				B51F435E1F96C2F70031CFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51F435F1F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51F43601F96C2F70031CFBB /* Debug */,
+				B51F43611F96C2F70031CFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51F43621F96C2F70031CFBB /* Build configuration list for PBXNativeTarget "Drake QuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51F43631F96C2F70031CFBB /* Debug */,
+				B51F43641F96C2F70031CFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51F432C1F96C2F70031CFBB /* Project object */;
+}
